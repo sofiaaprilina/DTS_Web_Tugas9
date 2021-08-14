@@ -1,0 +1,112 @@
+body{
+	font-family: sans-serif;
+	background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+}
+
+.background{
+    background-image: url(https://jagowebdev.com/wp-content/demo/mendesain-form-login-dengan-css/img/background.jpg);
+}
+
+.backdrop {
+    background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+    filter: alpha(opacity=90);
+	opacity: .6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.background, 
+.backdrop {
+    background-color: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.app{
+	width: 600px;
+    height: 580px;
+	background: #fbfbfb;
+	opacity: .9;
+    z-index: 1;
+    position: absolute;
+	top: 0%;
+    left: 28%;
+	margin: 30px auto;
+	padding: 5px 20px 50px 20px;
+	border-radius: 5px;
+	box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.65);
+}
+
+.tombol{
+	background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: seagreen;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 35px;
+    margin: 3px auto;
+	margin-top: 6px;
+    transition: 0.25s;
+    width: 153px;
+	float: right;
+}
+
+.tombol:hover {
+	box-shadow: 0px 1px 18px #24c64f;
+}
+ 
+.judul{
+	text-align: center;
+}
+
+.underline-judul {
+	background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+	height: 2px;
+	margin: -1.1rem auto 0 auto;
+	width: 300px;
+}
+
+.content{
+	padding: 12px 44px;
+}
+
+input[type=text], select {
+	width: fit-content;
+	padding: 10px 8px;
+	margin: 2px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }  
+
+textarea {
+	width: 80%;
+	height: 80px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+  }
+
+  .sukses{
+	text-align: center;
+	width: 500px;
+    height: 300px;
+	background: #fbfbfb;
+	opacity: .9;
+    z-index: 1;
+    position: absolute;
+	top: 10%;
+    left: 30%;
+	margin: 30px auto;
+	padding: 5px 20px 50px 20px;
+	border-radius: 5px;
+	box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.65);
+}

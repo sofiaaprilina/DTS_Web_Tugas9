@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="backdrop"></div>
+    <div class="app">
+        <h2 class="judul">Form Pendaftaran KTP</h2>
+        <div class="underline-judul"></div>
+        <form action="sukses.html" method="get">
+            <table>
+                <tr>
+                    <td><strong>NIK</strong> </td>
+                    <td><input type="text" name="nik"></td>
+                </tr>
+                <tr>
+                    <td><strong>Nama</strong> </td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><strong>Tempat/Tgl Lahir</strong> </td>
+                    <td colspan="2">
+                        <input type="text" name="tempat" placeholder="Masukan tempat"> /
+                        <input type="text" style="width: 40px" placeholder="dd">
+                        <input type="text" style="width: 40px" placeholder="mm">
+                        <input type="text" style="width: 60px" placeholder="yyyy">
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Jenis Kelamin</strong> </td>
+                    <td>
+                        <input type="radio" name="gender" id="1">Laki-Laki <br>
+                        <input type="radio" name="gender" id="2">Perempuan
+                    </td>
+                    <td><strong>Gol. Darah</strong> </td>
+                    <td>
+                        <select name="goldar">
+                            <option value="-">-</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="O">O</option>
+                            <option value="AB">AB</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"> <strong>Alamat</strong> </td>
+                    <td><textarea name="alamat" cols="20" rows="3"></textarea></td><br>
+                    <td colspan="3" valign="top"><input type="text" style="width: 40px" placeholder="RT"> /
+                        <input type="text" style="width: 40px" placeholder="RW">
+                        <input type="text" style="width: 130px" placeholder="Kel/Desa">
+                    </td>
+                    <td valign="top"><input type="text" style="width: 130px" placeholder="Kecamatan"></td>
+                </tr>
+                <tr>
+                    <td><strong>Agama</strong> </td>
+                    <td>
+                        <select name="agama">
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Konghucu">Konghucu</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Status Perkawinan</strong> </td>
+                    <td>
+                        <input type="radio" name="status" id="k"> Kawin <br>
+                        <input type="radio" name="status" id="b"> Belum Kawin
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong>Pekerjaan</strong> </td>
+                    <td>
+                        <input type="text" name="kerja">
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Kewarganegaraan</strong> </td>
+                    <td>
+                        <input type="radio" name="kwn" id="i"> WNI
+                        <input type="radio" name="kwn" id="a"> WNA
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" class="tombol" value="Simpan"></td>
+        </form>
+    </div>
+</body>
+
+</html>
